@@ -1,5 +1,6 @@
-package com.ohgiraffers.createentityandrestapiswagger.entity;
+package com.ohgiraffers.createentityandrestapiswagger;
 
+import com.ohgiraffers.createentityandrestapiswagger.Insta;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;

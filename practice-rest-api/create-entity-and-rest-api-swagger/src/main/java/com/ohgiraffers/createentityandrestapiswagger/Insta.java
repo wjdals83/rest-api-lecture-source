@@ -1,4 +1,4 @@
-package com.ohgiraffers.createentityandrestapiswagger.entity;
+package com.ohgiraffers.createentityandrestapiswagger;
 
 import jakarta.persistence.*;
 

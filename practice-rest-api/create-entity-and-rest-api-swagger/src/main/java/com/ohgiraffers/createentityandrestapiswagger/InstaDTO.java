@@ -1,4 +1,4 @@
-package com.ohgiraffers.createentityandrestapiswagger.model.dto;
+package com.ohgiraffers.createentityandrestapiswagger;
 
 import java.time.LocalDateTime;
 

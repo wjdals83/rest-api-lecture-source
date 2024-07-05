@@ -1,8 +1,5 @@
-package com.ohgiraffers.createentityandrestapiswagger.model.service;
+package com.ohgiraffers.createentityandrestapiswagger;
 
-import com.ohgiraffers.createentityandrestapiswagger.entity.Insta;
-import com.ohgiraffers.createentityandrestapiswagger.entity.InstaRepository;
-import com.ohgiraffers.createentityandrestapiswagger.model.dto.InstaDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,12 +10,9 @@ public class InstaService {
 
     private final InstaRepository instaRepository;
 
-    private ModelMapper modelMapper;
-
     @Autowired
-    public InstaService(InstaRepository instaRepository, ModelMapper modelMapper) {
+    public InstaService(InstaRepository instaRepository) {
         this.instaRepository = instaRepository;
-        this.modelMapper = modelMapper;
     }
 
     @Transactional
